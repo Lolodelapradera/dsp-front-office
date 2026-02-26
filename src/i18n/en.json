@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get in touch"
+  },
+  "hero": {
+    "badge": "Websites for professionals",
+    "headline": "Your practice deserves a website that works.",
+    "subheadline": "I build showcase websites for professionals and independents who offer a service. Clean, fast, delivered in 3 weeks.",
+    "cta_primary": "View services",
+    "cta_secondary": "Get in touch",
+    "scroll_hint": "Discover",
+    "stats": [
+      { "value": "3 wks", "label": "Delivery time" },
+      { "value": "100%", "label": "Mobile responsive" },
+      { "value": "FR/EN", "label": "Bilingual available" }
+    ]
+  },
+  "problem": {
+    "title": "Your clients are searching for you online.",
+    "subtitle": "What do they find?",
+    "items": [
+      { "icon": "search-x", "title": "No website", "desc": "You're invisible online. Your competitors capture the clients that could have been yours." },
+      { "icon": "clock", "title": "Outdated site", "desc": "An old website sends the wrong signal. Your image no longer reflects the quality of your work." },
+      { "icon": "calendar-x", "title": "No online booking", "desc": "Without an online calendar, you lose contacts at the exact moment they're looking for you." }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Websites built for service professionals.",
+    "popular_badge": "Popular",
+    "creation_title": "Website creation",
+    "subscription_title": "Annual subscription",
+    "plans": {
+      "essential": {
+        "name": "Essential",
+        "price": "€400",
+        "period": "one-time payment",
+        "description": "The essential online presence to get started.",
+        "features": [
+          "5 pages (Home, About, Services, Booking, Contact)",
+          "Mobile responsive",
+          "Delivered in 2 weeks"
+        ],
+        "cta": "Choose this plan"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€1,000",
+        "period": "one-time payment",
+        "description": "An optimized site to be found and generate leads.",
+        "features": [
+          "Everything in Essential +",
+          "SEO optimized for Google and AI search engines",
+          "Bilingual FR/EN",
+          "Online booking (Cal.com)",
+          "Custom animations & design",
+          "Delivered in 3-4 weeks"
+        ],
+        "cta": "Choose this plan"
+      },
+      "hosting": {
+        "name": "Essential",
+        "price": "€250",
+        "period": "per year",
+        "description": "Your site, simple, reliable and fast.",
+        "features": [
+          "Hosting and domain name included",
+          "HTTPS secure site",
+          "Technical and security updates"
+        ],
+        "cta": "Learn more"
+      },
+      "unlimited": {
+        "name": "Content & Updates",
+        "price": "€1,200",
+        "period": "per year",
+        "description": "Your site, complete and always evolving.",
+        "features": [
+          "Everything in Hosting & Maintenance +",
+          "Unlimited content changes",
+          "Additional pages",
+          "Priority support within 24h"
+        ],
+        "cta": "Learn more"
+      }
+    }
+  },
+  "whyme": {
+    "title": "Why choose me?",
+    "subtitle": "What makes the difference.",
+    "items": [
+      { "icon": "target", "title": "Specialist in service professionals", "desc": "I understand your real challenges: credibility, lead generation, professional image. No generic solutions." },
+      { "icon": "zap", "title": "Delivered in 2 to 4 weeks", "desc": "Your site live quickly, not in 6 months. A proven process, clear milestones, no bad surprises." },
+      { "icon": "globe", "title": "Bilingual FR/EN available", "desc": "For professionals who work with international clients or want to expand their reach." },
+      { "icon": "handshake", "title": "One dedicated contact", "desc": "From brief to post-launch support, you always have the same responsive person available." }
+    ]
+  },
+  "examples": {
+    "title": "Recent work",
+    "subtitle": "Sites designed for each profession.",
+    "filter_all": "All",
+    "items": [
+      {
+        "title": "Desprairies Avocat",
+        "url": "https://www.desprairiesavocat.fr",
+        "description": "Showcase site for a tax lawyer. Clean professional design with integrated contact form and online booking.",
+        "tags": ["Tax law", "Showcase", "Online booking"]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "They trusted me",
+    "subtitle": "What my clients say.",
+    "items": [
+      {
+        "text": "Site delivered in 2.5 weeks, exactly as agreed. Clean, professional, and my clients notice. I recommend without hesitation.",
+        "name": "Marie-Claire Fontaine",
+        "role": "Associate Lawyer",
+        "company": "Fontaine & Partners"
+      },
+      {
+        "text": "I had an outdated site that no longer reflected my work at all. The transformation was radical. I now receive enquiries through the site every week.",
+        "name": "Thomas Marchetti",
+        "role": "Architect",
+        "company": "Marchetti Studio"
+      },
+      {
+        "text": "Very attentive, responsive, and the result exceeded my expectations. The bilingual version is perfect for my international clients.",
+        "name": "Isabelle Renard",
+        "role": "Independent Consultant",
+        "company": "IR Consulting"
+      }
+    ]
+  },
+  "cta_section": {
+    "title": "Ready to give your practice a professional online presence?",
+    "subtitle": "Let's talk about your project. I'll get back to you within 24 hours.",
+    "cta": "Let's talk about your project"
+  },
+  "about": {
+    "badge": "About",
+    "title": "Web developer specialized in service professionals",
+    "bio_1": "Independent web developer based in France, I build professional showcase websites for freelancers and small firms who need a clean, fast and credible online presence.",
+    "bio_2": "I chose to specialize in one precise sector: service professionals — lawyers, architects, consultants, therapists — for whom online image is a direct lever of trust and conversion.",
+    "bio_3": "My approach: listen first, propose a tailored solution, deliver fast, and stay available long after launch.",
+    "values_title": "My approach",
+    "values": [
+      { "icon": "ear", "title": "Listening", "desc": "Every project starts with a real conversation about your needs, your business and your clients." },
+      { "icon": "layout", "title": "Adapted design", "desc": "No generic templates. A design tailored to your profession, sober and professional." },
+      { "icon": "rocket", "title": "Fast delivery", "desc": "Deadlines met, clear milestones, and your site live in 2 to 4 weeks." },
+      { "icon": "shield-check", "title": "Ongoing support", "desc": "I remain available after launch for adjustments and future developments." }
+    ],
+    "cta": "Get in touch"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's talk about your project",
+    "subtitle": "Describe your business and needs in a few words. I'll get back to you within 24 hours.",
+    "form": {
+      "name": "Full name",
+      "name_placeholder": "Marie Dupont",
+      "email": "Email address",
+      "email_placeholder": "marie@cabinet-dupont.fr",
+      "firm": "Company / Firm",
+      "firm_placeholder": "Dupont Law Firm",
+      "profession": "Profession",
+      "profession_placeholder": "Lawyer, Architect, Consultant…",
+      "message": "Your project in a few words",
+      "message_placeholder": "I'm looking to create a showcase website for my firm…",
+      "submit": "Send message",
+      "submitting": "Sending…"
+    },
+    "success": "Message sent! I'll reply within 24 hours.",
+    "error": "Something went wrong. Please retry or email me directly.",
+    "direct_title": "Or directly:",
+    "email": "contact@yourdomain.fr",
+    "response_time": "Response within 24h on weekdays"
+  },
+  "portfolio": {
+    "badge": "Work",
+    "title": "Showcase sites I've built",
+    "subtitle": "Professional showcases for different professions.",
+    "filter_all": "All",
+    "cta_title": "Your site could be next.",
+    "cta": "Let's talk about your project"
+  },
+  "footer": {
+    "tagline": "Websites for service professionals.",
+    "nav_title": "Navigation",
+    "legal": "Legal notice",
+    "copyright": "© 2026 [Your Name]. All rights reserved."
+  }
+}

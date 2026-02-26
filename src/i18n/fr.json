@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Réalisations",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Prendre contact"
+  },
+  "hero": {
+    "badge": "Sites web pour professionnels",
+    "headline": "Votre activité mérite un site à sa hauteur.",
+    "subheadline": "Je crée des sites vitrines pour professionnels et indépendants qui proposent un service. Sobre, rapide, livré en 3 semaines.",
+    "cta_primary": "Voir les offres",
+    "cta_secondary": "Prendre contact",
+    "scroll_hint": "Découvrir",
+    "stats": [
+      { "value": "3 sem.", "label": "Délai de livraison" },
+      { "value": "100%", "label": "Sites responsive" },
+      { "value": "FR/EN", "label": "Bilingue disponible" }
+    ]
+  },
+  "problem": {
+    "title": "Vos clients vous cherchent en ligne.",
+    "subtitle": "Que trouvent-ils ?",
+    "items": [
+      { "icon": "search-x", "title": "Aucun site", "desc": "Vous êtes invisible en ligne. Vos concurrents captent les clients que vous auriez pu avoir." },
+      { "icon": "clock", "title": "Site vieilli", "desc": "Un site daté envoie le mauvais signal. L'image ne reflète pas la qualité de votre expertise." },
+      { "icon": "calendar-x", "title": "Pas de prise de RDV", "desc": "Sans agenda en ligne, vous perdez des contacts au moment même où ils vous cherchent." }
+    ]
+  },
+  "services": {
+    "title": "Mes offres",
+    "subtitle": "Des sites taillés pour les professionnels de services.",
+    "popular_badge": "Populaire",
+    "creation_title": "Création de votre site",
+    "subscription_title": "Abonnement annuel",
+    "plans": {
+      "essential": {
+        "name": "Essentiel",
+        "price": "400 €",
+        "period": "paiement unique",
+        "description": "Tout ce qu'il faut pour être visible en ligne.",
+        "features": [
+          "5 pages (Accueil, À propos, Services, RDV, Contact)",
+          "Adapté aux mobiles et tablettes",
+          "Prise de rendez-vous en ligne",
+          "Livré en 2 semaines"
+        ],
+        "cta": "Choisir cette offre"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "1 000 €",
+        "period": "paiement unique",
+        "description": "Un site pensé pour attirer de nouveaux clients.",
+        "features": [
+          "Tout ce qui est dans l'Essentiel +",
+          "Référencement optimisé pour Google et les moteurs de recherche IA",
+          "Site disponible en français et en anglais",
+          "Design et animations sur-mesure",
+          "Livré en 3 à 4 semaines"
+        ],
+        "cta": "Choisir cette offre"
+      },
+      "hosting": {
+        "name": "Essentiel",
+        "price": "250 €",
+        "period": "par an",
+        "description": "Votre site simple, fiable et rapide.",
+        "features": [
+          "Hébergement et nom de domaine inclus",
+          "Site sécurisé HTTPS",
+          "Mises à jour techniques"
+        ],
+        "cta": "En savoir plus"
+      },
+      "unlimited": {
+        "name": "Contenu & Évolutions",
+        "price": "1 200 €",
+        "period": "par an",
+        "description": "Votre site complet et évolutif.",
+        "features": [
+          "Hébergement & Maintenance inclus",
+          "Changements de textes et photos illimités",
+          "Ajout de nouvelles pages",
+          "Réponse garantie sous 24h"
+        ],
+        "cta": "En savoir plus"
+      }
+    }
+  },
+  "whyme": {
+    "title": "Pourquoi me choisir ?",
+    "subtitle": "Ce qui fait la différence.",
+    "items": [
+      { "icon": "target", "title": "Spécialisé professionnels de services", "desc": "Je comprends vos enjeux réels : crédibilité, prise de contact, image professionnelle. Pas de solution générique." },
+      { "icon": "zap", "title": "Livraison en 2 à 4 semaines", "desc": "Votre site en ligne rapidement, pas en 6 mois. Un processus rodé, des jalons clairs, aucune mauvaise surprise." },
+      { "icon": "globe", "title": "Bilingue FR/EN disponible", "desc": "Pour les professionnels qui travaillent avec des clients internationaux ou qui souhaitent élargir leur portée." },
+      { "icon": "handshake", "title": "Un interlocuteur unique", "desc": "Du brief au suivi post-livraison, vous avez toujours la même personne disponible et réactive." }
+    ]
+  },
+  "examples": {
+    "title": "Exemples de réalisations",
+    "subtitle": "Des sites pensés pour chaque métier.",
+    "filter_all": "Tous",
+    "items": [
+      {
+        "title": "Desprairies Avocat",
+        "url": "https://www.desprairiesavocat.fr",
+        "description": "Site vitrine pour un avocat fiscaliste. Design sobre et professionnel, formulaire de contact et prise de RDV intégrés.",
+        "tags": ["Droit fiscal", "Vitrine", "Prise de RDV"]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ils m'ont fait confiance",
+    "subtitle": "Ce que disent mes clients.",
+    "items": [
+      {
+        "text": "Site livré en 2 semaines et demi, exactement comme convenu. Sobre, professionnel, et mes clients le remarquent. Je recommande sans hésiter.",
+        "name": "Marie-Claire Fontaine",
+        "role": "Avocate associée",
+        "company": "Cabinet Fontaine & Associés"
+      },
+      {
+        "text": "J'avais un site vieilli qui ne reflétait plus du tout mon travail. La transformation a été radicale. Je reçois maintenant des demandes via le site toutes les semaines.",
+        "name": "Thomas Marchetti",
+        "role": "Architecte DPLG",
+        "company": "Atelier Marchetti"
+      },
+      {
+        "text": "Très à l'écoute, réactif, et le résultat dépasse mes attentes. La version bilingue est parfaite pour mes clients internationaux.",
+        "name": "Isabelle Renard",
+        "role": "Consultante indépendante",
+        "company": "IR Conseil"
+      }
+    ]
+  },
+  "cta_section": {
+    "title": "Prêt à donner une image professionnelle à votre activité ?",
+    "subtitle": "Parlons de votre projet. Je vous reviens sous 24h.",
+    "cta": "Discutons de votre projet"
+  },
+  "about": {
+    "badge": "À propos",
+    "title": "Développeur web spécialisé professionnels de services",
+    "bio_1": "Développeur web indépendant basé en France, je crée des sites vitrines professionnels pour les indépendants et petites structures qui ont besoin d'une présence en ligne sobre, rapide et crédible.",
+    "bio_2": "J'ai choisi de me spécialiser dans un secteur précis : les professionnels de services — avocats, architectes, consultants, thérapeutes — pour qui l'image en ligne est un levier direct de confiance et de conversion.",
+    "bio_3": "Ma méthode : écouter d'abord, proposer une solution adaptée, livrer vite, et rester disponible longtemps après.",
+    "values_title": "Ma méthode",
+    "values": [
+      { "icon": "ear", "title": "Écoute", "desc": "Chaque projet commence par une vraie discussion sur vos besoins, votre activité et vos clients." },
+      { "icon": "layout", "title": "Design adapté", "desc": "Pas de template générique. Un design pensé pour votre métier, sobre et professionnel." },
+      { "icon": "rocket", "title": "Livraison rapide", "desc": "Des délais tenus, des jalons clairs, et un site en ligne en 2 à 4 semaines." },
+      { "icon": "shield-check", "title": "Suivi inclus", "desc": "Je reste disponible après la livraison pour les ajustements et les évolutions." }
+    ],
+    "cta": "Prendre contact"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Discutons de votre projet",
+    "subtitle": "Décrivez votre activité et vos besoins en quelques mots. Je vous reviens sous 24h.",
+    "form": {
+      "name": "Nom complet",
+      "name_placeholder": "Marie Dupont",
+      "email": "Adresse email",
+      "email_placeholder": "marie@cabinet-dupont.fr",
+      "firm": "Structure / Cabinet",
+      "firm_placeholder": "Cabinet Dupont",
+      "profession": "Profession",
+      "profession_placeholder": "Avocat, Architecte, Consultant…",
+      "message": "Votre projet en quelques mots",
+      "message_placeholder": "Je cherche à créer un site vitrine pour mon cabinet…",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours…"
+    },
+    "success": "Message envoyé ! Je vous réponds sous 24h.",
+    "error": "Une erreur est survenue. Réessayez ou écrivez-moi directement.",
+    "direct_title": "Ou directement :",
+    "email": "contact@votredomaine.fr",
+    "response_time": "Réponse sous 24h en semaine"
+  },
+  "portfolio": {
+    "badge": "Réalisations",
+    "title": "Exemples de sites réalisés",
+    "subtitle": "Des vitrines professionnelles pour différents métiers.",
+    "filter_all": "Tous",
+    "cta_title": "Votre site, c'est le prochain ?",
+    "cta": "Parlons de votre projet"
+  },
+  "footer": {
+    "tagline": "Sites web pour professionnels de services.",
+    "nav_title": "Navigation",
+    "legal": "Mentions légales",
+    "copyright": "© 2026 [Votre Nom]. Tous droits réservés."
+  }
+}

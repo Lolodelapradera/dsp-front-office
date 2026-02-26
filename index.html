@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Anti-flash theme : doit être avant tout script React -->
+    <script>
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = stored || (prefersDark ? 'dark' : 'light');
+        document.documentElement.classList.add(theme);
+      })();
+    </script>
+
+    <!-- SEO -->
+    <title>Développeur Web — Sites pour Professionnels de Services</title>
+    <meta name="description" content="Je crée des sites web professionnels pour avocats, architectes, consultants et autres professionnels de services. Sobre, rapide, bilingue FR/EN. Livraison en 3 semaines." />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Développeur Web — Sites pour Professionnels de Services" />
+    <meta property="og:description" content="Sites web professionnels pour avocats, architectes, consultants et autres professionnels de services." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

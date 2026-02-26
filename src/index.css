@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg:              #FAFAFA;
+  --bg-secondary:    #F4F4F6;
+  --fg:              #1A1A2E;
+  --fg-muted:        #6B7280;
+  --primary:         #1E3A5F;
+  --primary-light:   #2D5A8E;
+  --primary-fg:      #FFFFFF;
+  --accent:          #B8960C;
+  --accent-light:    #D4A90E;
+  --accent-fg:       #FFFFFF;
+  --border:          #E2E8F0;
+  --border-strong:   #CBD5E1;
+  --shadow:          0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md:       0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06);
+  --shadow-lg:       0 10px 15px rgba(0,0,0,0.07), 0 4px 6px rgba(0,0,0,0.05);
+  --radius:          0.5rem;
+  --font-sans:       'Inter', system-ui, sans-serif;
+  --font-serif:      'Playfair Display', Georgia, serif;
+}
+
+.dark {
+  --bg:              #0F1117;
+  --bg-secondary:    #171B26;
+  --fg:              #F2F2F5;
+  --fg-muted:        #9CA3AF;
+  --primary:         #7BA7D4;
+  --primary-light:   #93BDE0;
+  --primary-fg:      #0D1B2A;
+  --accent:          #E5C450;
+  --accent-light:    #EDD06A;
+  --accent-fg:       #1A1200;
+  --border:          #2D3340;
+  --border-strong:   #3D4558;
+  --shadow:          0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-md:       0 4px 6px rgba(0,0,0,0.35), 0 2px 4px rgba(0,0,0,0.25);
+  --shadow-lg:       0 10px 15px rgba(0,0,0,0.35), 0 4px 6px rgba(0,0,0,0.25);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .font-serif  { font-family: var(--font-serif); }
+  .text-fg     { color: var(--fg); }
+  .text-muted  { color: var(--fg-muted); }
+  .bg-page     { background-color: var(--bg); }
+  .bg-card     { background-color: var(--bg-secondary); }
+  .border-main { border-color: var(--border); }
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: var(--radius);
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 3px; }
