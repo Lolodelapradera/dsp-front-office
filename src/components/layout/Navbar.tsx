@@ -65,14 +65,18 @@ export function Navbar() {
           </Link>
         </div>
 
-        {/* Mobile toggle */}
-        <button
-          className="md:hidden p-2 rounded-md text-[var(--fg-muted)] hover:text-[var(--fg)] hover:bg-[var(--bg-secondary)]"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Menu"
-        >
-          {mobileOpen ? <X size={20} /> : <Menu size={20} />}
-        </button>
+        {/* Mobile controls */}
+        <div className="md:hidden flex items-center gap-1">
+          <LanguageSwitcher />
+          <ThemeToggle />
+          <button
+            className="p-2 rounded-md text-[var(--fg-muted)] hover:text-[var(--fg)] hover:bg-[var(--bg-secondary)]"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label="Menu"
+          >
+            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu */}
@@ -92,10 +96,8 @@ export function Navbar() {
               {t(key)}
             </Link>
           ))}
-          <div className="flex items-center gap-3 pt-2 border-t border-[var(--border)] mt-2">
-            <LanguageSwitcher />
-            <ThemeToggle />
-            <Link to="/contact" onClick={() => setMobileOpen(false)} className="flex-1">
+          <div className="pt-2 border-t border-[var(--border)] mt-2">
+            <Link to="/contact" onClick={() => setMobileOpen(false)} className="block">
               <Button size="sm" className="w-full">{t('nav.cta')}</Button>
             </Link>
           </div>
