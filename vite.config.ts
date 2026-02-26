@@ -9,8 +9,8 @@ export default defineConfig({
     tailwindcss(),
   ],
 
-  // Pour GitHub Pages — remplacer 'front-view' par le nom exact du repo
-  base: '/front-view/',
+  // Pour GitHub Pages — nom exact du repo
+  base: '/dsp-front-office/',
 
   resolve: {
     alias: {
